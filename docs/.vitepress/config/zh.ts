@@ -84,7 +84,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
   return [
     {
       text: '简介',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: '什么是 VitePress？', link: 'what-is-vitepress' },
         { text: '快速开始', link: 'getting-started' },
@@ -94,7 +94,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
     {
       text: '写作',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'Markdown 扩展', link: 'markdown' },
         { text: '资源处理', link: 'asset-handling' },
@@ -105,7 +105,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
     {
       text: '自定义',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: '自定义主题', link: 'custom-theme' },
         { text: '扩展默认主题', link: 'extending-default-theme' },
@@ -116,7 +116,7 @@ function sidebarGuide(): DefaultTheme.SidebarItem[] {
     },
     {
       text: '实验性功能',
-      collapsed: false,
+      collapsed: true,
       items: [
         { text: 'MPA 模式', link: 'mpa-mode' },
         { text: 'sitemap 生成', link: 'sitemap-generation' }
